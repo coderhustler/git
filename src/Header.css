@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #131921;
+    padding: 10px;
+    height: 60px;
+  }
+  
+  .header__logo {
+    width: 100px;
+    object-fit: contain;
+    margin-right: 20px;
+  }
+  
+  .header__search {
+    display: flex;
+    flex: 1;
+  }
+  
+  .header__searchInput {
+    height: 12px;
+    padding: 10px;
+    border: none;
+    width: 100%;
+  }
+  
+  .header__searchButton {
+    padding: 10px;
+    background-color: #febd69;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .header__nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .header__option {
+    color: white;
+    padding: 10px;
+  }
+  
