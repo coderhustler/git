@@ -1,0 +1,50 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar__logo {
+    width: 100px;
+    object-fit: contain;
+    margin-right: 20px;
+  }
+  
+  .navbar__categories {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+  }
+  
+  .navbar__option {
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .navbar__search {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+  }
+  
+  .navbar__searchInput {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .navbar__nav {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+  }
+  
+  .navbar__option {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
